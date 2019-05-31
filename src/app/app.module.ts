@@ -5,6 +5,7 @@ import { AdminComponent } from './admin.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './products.component';
+import { PuppiesComponent } from './puppies.component';
 import { SearchComponent } from './search.component';
 
 
@@ -13,7 +14,8 @@ import { SearchComponent } from './search.component';
     AppComponent,
     SearchComponent,
     ProductsComponent,
-    AdminComponent
+    AdminComponent,
+    PuppiesComponent
   ],
   imports: [
     BrowserModule,
